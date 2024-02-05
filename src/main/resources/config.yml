@@ -1,0 +1,58 @@
+database:
+  host: "localhost"
+  user: "renvins"
+  password: "renvinsPsw"
+  database: "test"
+setup:
+  wand:
+    material: STICK
+    name: "&7» &eRegion Stick"
+    lore:
+      - "&7Right click for &ecorner one"
+      - "&7Left click for &ecorner two"
+regionsMenu:
+  title: "&8» Regions"
+  items:
+    region:
+      material: NETHER_STAR
+      name: "&7» &e%region%"
+      lore:
+        - "&7Click to &eenter &7the menu"
+        - "&7of this &eregion"
+    pageBefore:
+      material: RED_WOOL
+      name: "&7< &cGo back &7>"
+      lore:
+        - "&7Click to &cgo back &7to"
+        - "&7the &cprevious &7page"
+    pageAfter:
+      material: GREEN_WOOL
+      name: "&7< &aGo ahead &7>"
+      lore:
+        - "&7Click to &ago ahead &7to"
+        - "&7the &anext &7page"
+regionMenu:
+  title: "&8» Region Settings"
+  items:
+    renameItem:
+      material: PAPER
+      name: "&7» &cRename item"
+      lore:
+        - "&7Click to &crename &7the region"
+    whitelistAddItem:
+      material: BLAZE_POWDER
+      name: "&7» &aWhitelist add"
+      lore:
+        - "&7Click to &aadd &7a player"
+        - "&7to the &awhitelist"
+    whitelistRemoveItem:
+      material: STRING
+      name: "&7» &eWhitelist remove"
+      lore:
+        - "&7Click to &eremove &7a player"
+        - "&7from the &ewhitelist"
+    redefineItem:
+      material: BOOK
+      name: "&7» &6Redefine region"
+      lore:
+        - "&7Click to &6redefine &7a region"
